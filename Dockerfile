@@ -14,3 +14,4 @@ ARG KC_HOSTNAME
 ENV KC_HTTP_ENABLED=true
 ENV KC_PROXY=edge
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start"]
+EXPOSE 8080
